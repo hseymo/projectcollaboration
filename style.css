@@ -1,15 +1,4 @@
 body {
-<<<<<<< HEAD
-background-color: peru;
-margin: auto;
-padding: 0%;
-}
-
-h1 {
-    font-size: 36px;
-    text-align: center;
-    
-=======
 background-color: rgb(37, 56, 75);
 margin: 0;
 padding: 0;
@@ -32,8 +21,12 @@ min-height: 100vh;
 }
 
 h1 {
-    /* display:flex; */
     text-align: center;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
 #searchcontainer h2 {
@@ -43,6 +36,7 @@ h1 {
 #resultspage {
     text-align: left;
     margin:0;
+
 }
 
 aside {
@@ -52,5 +46,7 @@ aside {
     margin:0px;
     display:flex;
     flex-direction: column;
->>>>>>> dev
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
