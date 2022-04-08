@@ -1,5 +1,56 @@
 body {
+<<<<<<< HEAD
 background-color: peru;
 margin: auto;
 padding: 0%;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    
+=======
+background-color: rgb(37, 56, 75);
+margin: 0;
+padding: 0;
+min-width: 100vh;
+min-height: 100vh;
+}
+
+#homepage {
+    background-color:azure;
+    width: fit-content;
+    display:block;
+    color: rgb(37, 56, 75);
+    padding: auto;
+    border: 1px solid white;
+    margin: auto;
+    padding: 10px;
+    top: 100px;
+    position: relative;
+    border-radius: 30px;
+}
+
+h1 {
+    /* display:flex; */
+    text-align: center;
+}
+
+#searchcontainer h2 {
+    text-align: center;
+}
+
+#resultspage {
+    text-align: left;
+    margin:0;
+}
+
+aside {
+    background-color: azure;
+    color:rgb(37, 56, 75);
+    width: fit-content;
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+>>>>>>> dev
 }
